@@ -326,11 +326,24 @@
     <section class="iva-section p-3 p-lg-5 d-flex align-items-center" id="accepted-papers">
       <div class="w-100">
         <h2 class="mb-5">Accepted papers</h2>
-      <ul>
-        <li>Wu et al. <a href="https://openreview.net/forum?id=ykvm7OLh7B" target="_blank">Probabilistic Human-like Gesture Synthesis from Speech using GRU-based WGAN</a></li>
-        <li>Schneeberger et al. <a href="https://openreview.net/forum?id=GjjPtEVdSLB" target="_blank">Influence of Movement Energy and Affect Priming on the Perception of Virtual Characters Extroversion and Mood</a></li>
-        <li>Lee et al. <a href="https://openreview.net/forum?id=o8CpxaBurZQ" target="_blank">Crossmodal clustered contrastive learning: Grounding of spoken language to gesture</a></li>
-      </ul>
+      
+        <p>
+          <h4><a href="https://openreview.net/forum?id=ykvm7OLh7B" target="_blank">Probabilistic Human-like Gesture Synthesis from Speech using GRU-based WGAN</a></h4>
+          <i>Bowen Wu, Chaoran Liu, Carlos Ishi, and Hiroshi Ishiguro</i><br><br>
+          Gestures are crucial for increasing the human-likeness of agents and robots to achieve smoother interactions with humans. The realization of an effective system to model human gestures, which are matched with the speech utterances, is necessary to be embedded in these agents. In this work, we propose a GRU-based autoregressive generation model for gesture generation, which is trained with a CNN-based discriminator in an adversarial manner using a WGAN-based learning algorithm. The model is trained to output the rotation angles of the joints in the upper body, and implemented to animate a CG avatar. The motions synthesized by the proposed system are evaluated via an objective measure and a subjective experiment, showing that the proposed model outperforms a baseline model which is trained by a state-of-the-art GAN-based algorithm, using the same dataset. This result reveals that it is essential to develop a stable and robust learning algorithm for training gesture generation models. Our code can be found in <a href="https://github.com/wubowen416/gesture-generation" target="_blank">https://github.com/wubowen416/gesture-generation</a>.
+        </p>
+          <hr>
+        <p>
+          <h4><a href="https://openreview.net/forum?id=GjjPtEVdSLB" target="_blank">Influence of Movement Energy and Affect Priming on the Perception of Virtual Characters Extroversion and Mood</a></h4>
+          <i>Tanja Schneeberger, Fatima Ayman Aly, Daksitha Withanage Don, Katharina Gies, Zita Zeimer, Fabrizio Nunnari, and Patrick Gebhard</i><br><br>
+          Movement Energy – physical activeness in performing actions and Affect Priming – prior exposure to information about someone’s mood and personality might be two crucial factors that influence how we perceive someone. It is unclear if these factors influence the perception of virtual characters in a way that is similar to what is observed during in-person interactions. This paper presents different configurations of Movement Energy for virtual characters and two studies about how these influence the perception of the characters’ personality, extroversion in particular, and mood. Moreover, the studies investigate how Affect Priming (Personality and Mood), as one form of contextual priming, influences this perception. The results indicate that characters with high Movement Energy are perceived as more extrovert and in a better mood, which corroborates existing research. Moreover, the results indicate that Personality and Mood Priming influence perception in different ways. Characters that were primed as being in a positive mood are perceived as more extrovert, whereas characters that were primed as being introverted are perceived in a more positive mood.
+        </p>
+        <hr>
+        <p><h4><a href="https://openreview.net/forum?id=o8CpxaBurZQ" target="_blank">Crossmodal clustered contrastive learning: Grounding of spoken language to gesture</a></h4>
+          <i>Dong Won Lee, Chaitanya Ahuja, and Louis-Philippe Morency</i><br><br>
+          Crossmodal grounding is a key challenge for the task of generating relevant and well-timed gestures from just spoken language as an input. Often, the same gesture can be accompanied by semantically different spoken language phrases which makes crossmodal grounding especially challenging. For example, a deictic gesture of spanning a region could co-occur with semantically different phrases "entire bottom row" (referring to a physical point) and "molecules expand and decay" (referring to a scientific phenomena). In this paper, we introduce a self-supervised approach to learn such many-to-one grounding relationships between spoken language and gestures. As part of this approach, we propose a new contrastive loss function, Crossmodal Cluster NCE , that guides the model to learn spoken language representations which are consistent with the similarities in the gesture space. By doing so, we impose a greater level of grounding between spoken language and gestures in the model. We demonstrate the effectiveness of our approach on a publicly available dataset through quantitative and qualitative studies. Our proposed methodology significantly outperforms prior approaches for grounding gestures to language. Link to code: <a href="https://github.com/dondongwon/CC_NCE_GENEA" target="_blank">https://github.com/dondongwon/CC_NCE_GENEA</a>.
+        </p>
+      
     </div>
     </section>
 
